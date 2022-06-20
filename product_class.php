@@ -1,5 +1,5 @@
 <?php
-class Product extends Category{
+class Product{
     // Propriétés de la classe
     private $name = '';
     private $category = '';
@@ -49,13 +49,3 @@ class Product extends Category{
     }
 
 }
-
-class Category{
-    private $categoryname = '';
-
-    public function getCategoryName(){
-        return $this->categoryname;
-    }
-}
-
-?>

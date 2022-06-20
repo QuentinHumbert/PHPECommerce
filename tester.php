@@ -9,7 +9,7 @@
 
     $productlist = array ($product1,$product2,$product3,$product4,$product5);
 
-    sortProductCategoryASC($productlist);
+    getDiscountedProduct($productlist);
 
     // Functions
     function getPromotedProduct($pl){
@@ -43,6 +43,3 @@
             print_r($product->getCategory() . " : " . $product->getName() . "\n");
         }
     }
-
-
-?>
